@@ -1,0 +1,43 @@
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+	1)В Github  NEW >>Repository name: "JSON".(+ Public,+Add a Readme file.) Create repository. 
+
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+	1) Code>HTTPS>скопировать.
+	2) Открыть папку. mkdir group_29_free
+	3) Клонировать репозиторий: git clone https://github.com/veracruza/JSON.git
+ 6. Внутри локального JSON создать файл “new.json”.
+	1) touch new.json
+ 7. Добавить файл под гит.
+	1) git add .
+ 8. Закоммитить файл.
+	1) git commit -m "new"
+ 9. Отправить файл на внешний GitHub репозиторий.
+	1) git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+	1) vim new.json 
+ 11. Отправить изменения на внешний репозиторий.
+	1) git commit -am "changes"
+	2) git push
+ 12. Создать файл preferences.json 
+	1) touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+	1) vim preferences.json 
+ 14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON@
+	1) touch skills.json
+	2) vim skills.json 
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+	1)  git add . (добавляем новые файлы
+	2)  git commit -am "changes"
+	3)  git push
+ 16. На веб интерфейсе создать файл bug_report.json.
+	1) Add file->Create new file
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	1)  Commit new file
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+	1) Edit this file.
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	1) Commit changes.
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+	1) git fetch (посмотреть изменения)
+	2) git pull (скопировать все на локальный репозиторий)
